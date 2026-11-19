@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="530" viewBox="0 0 1080 530" role="img" aria-labelledby="title desc">
+<title id="title">LinkLens 链接业务解读示意</title><desc id="desc">链接按地址和推广参数横向拆块，选中 utm_content 后连接解释：区分用户点击的按钮位置。</desc>
+<rect width="1080" height="530" rx="20" fill="#f6f8fa"/>
+<g font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" fill="#24392f">
+<text x="40" y="51" font-size="22" font-weight="600">LinkLens</text><text x="158" y="51" font-size="17" fill="#62716a">把链接，讲明白。</text>
+<g font-family="monospace" font-size="19">
+<rect x="40" y="83" width="135" height="57" rx="10" fill="#e5eee8"/><text x="57" y="119">https://</text>
+<rect x="186" y="83" width="265" height="57" rx="10" fill="#e9eef8"/><text x="203" y="119" fill="#42658f">shop.example.com</text>
+<rect x="462" y="83" width="258" height="57" rx="10" fill="#f3ede2"/><text x="479" y="119" fill="#806333">/products/shoes</text>
+<rect x="731" y="83" width="48" height="57" rx="10" fill="#eee9f6"/><text x="748" y="119">?</text>
+<rect x="40" y="153" width="365" height="57" rx="10" fill="#f4eae4"/><text x="57" y="189" fill="#895b44">utm_source=newsletter</text>
+<text x="421" y="189">&amp;</text>
+<rect x="453" y="153" width="270" height="57" rx="10" fill="#e9eef8"/><text x="470" y="189" fill="#42658f">utm_medium=email</text>
+<text x="740" y="189">&amp;</text>
+<rect x="40" y="223" width="468" height="57" rx="10" fill="#eee9f6"/><text x="57" y="259" fill="#6e578d">utm_campaign=autumn_launch</text>
+<text x="522" y="259">&amp;</text>
+<rect x="554" y="223" width="433" height="57" rx="10" fill="#e5eee8" stroke="#438468" stroke-width="2"/><text x="571" y="259">utm_content=hero_button</text>
+</g>
+<path d="M 770 280 C 770 316, 76 301, 76 340" fill="none" stroke="#438468" stroke-width="2" stroke-dasharray="6 5"/>
+<rect x="40" y="340" width="947" height="148" rx="13" fill="#fff" stroke="#dfe6df"/>
+<text x="65" y="375" font-size="14" fill="#657c6b">素材 / 位置标签</text>
+<text x="65" y="410" font-size="23" font-weight="600">用户点的是哪个按钮？</text>
+<text x="65" y="444" font-size="17" fill="#526a5a">hero_button 可理解为顶部主视觉区按钮，具体含义由运营命名。</text>
+<text x="65" y="471" font-size="17" fill="#526a5a">给不同位置设置不同标签，分析工具采集后就能分别比较表现。</text>
+</g></svg>
