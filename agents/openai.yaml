@@ -1,4 +1,4 @@
 interface:
   display_name: "广告监测链接解读"
-  short_description: "拆解广告点击监测、转化回传和媒体回调链接，讲清参数含义与业务用途"
-  default_prompt: "使用 $link-business-explain 解读这条广告链接，查官方资料确认平台和接入规则，再讲清链路方向、每个参数的含义与用途。"
+  short_description: "面向国内广告接入，拆解点击监测、转化回传和媒体回调链接，讲清参数含义与业务用途"
+  default_prompt: "使用 $link-business-explain 按国内广告接入场景解读这条链接，查官方资料确认平台和接入规则，再讲清链路方向、每个参数的含义与用途。"

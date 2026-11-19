@@ -4,7 +4,7 @@
 
 **把广告投放中的监测链接拆开，讲清点击怎么记录、转化怎么关联、结果回给谁。**
 
-面向广告运营、商业化产品经理和技术接入人员的中文 Codex Skill。
+主要用于**国内广告投放与接入场景**，面向广告运营、商业化产品经理和技术接入人员的中文 Codex Skill。
 
 [快速开始](#快速开始) · [看看效果](#看看效果) · [能解释什么](#能解释什么) · [使用边界](#使用边界)
 
@@ -29,6 +29,12 @@ LinkLens 就是把这些链接拆开，说明每个字段在业务链路里起�
 “归因”就是尝试把后续转化和前面的广告接触关联起来；“回传 / 回调”是系统按约定通知另一方结果。具体规则以各平台协议为准。
 
 它的作用是**帮助理解和沟通接入**，不承担投放执行、真实归因计算或线上故障定责。
+
+## 适用范围：以国内广告场景为主
+
+本项目主要服务国内广告投放与接入工作，使用中文、大白话讲解。常见场景包括美团、快手、抖音、微信等国内平台的点击监测、转化回传、媒体回调和 App 跳转；具体平台、路径与参数仍需逐条查官方资料，不代表已经适配这些平台的全部协议。
+
+OAID、CAID、媒体宏等内容会结合国内接入场景解释；IDFA、UTM 等通用概念也会涉及。目前不以海外广告平台接入为主要支持范围，也不承诺完整覆盖 Google Ads、Meta、AppsFlyer、Adjust 等海外平台的协议。
 
 ## 一条广告链接，不该靠猜
 
@@ -152,7 +158,7 @@ link-business-explain/
 
 ## English
 
-**LinkLens is a Chinese-first Codex Skill for understanding advertising tracking URLs and attribution integrations.** It focuses on click monitoring, conversion reporting, media callbacks, device identifiers, and nested landing-page URLs. It researches official documentation, then explains what each part means, who supplies it, how it is used, and what changing it may affect. Interactive hosts can show colored URL segments with linked explanations; text is the fallback. This is a skill package, not a standalone app.
+**LinkLens is a Chinese-language Codex Skill primarily for advertising tracking URLs and attribution integrations in mainland China.** It focuses on click monitoring, conversion reporting, media callbacks, device identifiers, and nested landing-page URLs. It researches official documentation, then explains what each part means, who supplies it, how it is used, and what changing it may affect. Interactive hosts can show colored URL segments with linked explanations; text is the fallback. It focuses on domestic Chinese advertising workflows; comprehensive support for overseas advertising platforms is outside the current scope. This is a skill package, not a standalone app.
 
 ## License
 
